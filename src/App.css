@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  border-color: #e91818;
 }
 
 .App-logo {
@@ -22,6 +23,40 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.header {
+  color: blue;
+}
+
+.scores-div {
+  border: 5px solid rgb(5, 59, 3);
+  margin: auto;
+  width: 380px;
+  margin-bottom: 5px;
+}
+
+.table-div {
+  border: 2px solid black;
+  margin: 2px;
+}
+
+td {
+  width: 170px;
+  text-align: right;
+  border-top: 1px solid black;
+}
+
+.score-header {
+  color: cyan;
+  text-align: center;
+}
+
+.ext-div {
+  border: 2px solid rgb(134, 133, 133);
+  max-width: 400px;
+  align-tracks: center;
+  margin: auto;
 }
 
 .App-link {

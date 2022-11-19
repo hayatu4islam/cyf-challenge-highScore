@@ -1,25 +1,17 @@
-import logo from "./logo.svg";
+import React from "react";
+import PrintScores from "./ScoreSummary";
 import "./App.css";
-
+// const {scores} = require("./scores");
+// import allCountryScores from "./highscore/scores.js";
 function App() {
+  // const scores = allCountryScores;
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="ext-div">
+      <div>
+        <h1 className="header">High Score Per Country</h1>
+        <PrintScores />
+      </div>
     </div>
   );
 }
-
 export default App;
